@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+.font-style-heading {
+  font-family: "Germania One", system-ui;
+}
+.salsa-regular {
+  font-family: "Salsa", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body,
+html {
+  color: rgb(255, 255, 255);
+  background: linear-gradient(115deg, rgb(0, 0, 0) 5.8%, rgb(37, 0, 74) 112.6%);
+}
+
+.container-full{
+  width: 100%;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+  padding: 5px;
+
+  @media (max-width:1025px) {
+    width: 95%;
+  }
+}
